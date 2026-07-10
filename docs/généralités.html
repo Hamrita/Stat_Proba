@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapitre 1 Généralités | Statistique Descriptive et Probabilités : Rappels de cours et exercices corrigés</title>
+  <meta name="description" content="Chapitre 1 Généralités | Statistique Descriptive et Probabilités : Rappels de cours et exercices corrigés" />
+  <meta name="generator" content="bookdown 0.47 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapitre 1 Généralités | Statistique Descriptive et Probabilités : Rappels de cours et exercices corrigés" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapitre 1 Généralités | Statistique Descriptive et Probabilités : Rappels de cours et exercices corrigés" />
+  
+  
+  
+
+<meta name="author" content="Mohamed Essaied Hamrita, Abdelkader Trifi" />
+
+
+<meta name="date" content="2026-01-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="the-pool-of-tears.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Stat</a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section" id="toc-section"></a></li>
+<li class="chapter" data-level="1" data-path="généralités.html"><a href="généralités.html"><i class="fa fa-check"></i><b>1</b> Généralités</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="généralités.html"><a href="généralités.html#vocabulaires"><i class="fa fa-check"></i><b>1.1</b> Vocabulaires</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="généralités.html"><a href="généralités.html#l%C3%A9preuve-statistique"><i class="fa fa-check"></i><b>1.1.1</b> L’épreuve statistique</a></li>
+<li class="chapter" data-level="1.1.2" data-path="généralités.html"><a href="généralités.html#la-population-statistique"><i class="fa fa-check"></i><b>1.1.2</b> La population statistique</a></li>
+<li class="chapter" data-level="1.1.3" data-path="généralités.html"><a href="généralités.html#lindividu-ou-unit%C3%A9-statistique"><i class="fa fa-check"></i><b>1.1.3</b> L’individu (ou unité statistique)</a></li>
+<li class="chapter" data-level="1.1.4" data-path="généralités.html"><a href="généralités.html#le-caract%C3%A8re-ou-variable-statistique"><i class="fa fa-check"></i><b>1.1.4</b> Le caractère (ou variable statistique)</a></li>
+<li class="chapter" data-level="1.1.5" data-path="généralités.html"><a href="généralités.html#les-modalit%C3%A9s"><i class="fa fa-check"></i><b>1.1.5</b> Les modalités</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="généralités.html"><a href="généralités.html#les-types-de-caract%C3%A8res"><i class="fa fa-check"></i><b>1.2</b> Les types de caractères</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="généralités.html"><a href="généralités.html#les-caract%C3%A8res-qualitatifs"><i class="fa fa-check"></i><b>1.2.1</b> Les caractères qualitatifs</a></li>
+<li class="chapter" data-level="1.2.2" data-path="généralités.html"><a href="généralités.html#les-caract%C3%A8res-quantitatifs"><i class="fa fa-check"></i><b>1.2.2</b> Les caractères quantitatifs</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="généralités.html"><a href="généralités.html#choix-des-outils-et-objectif-de-la-statistique-descriptive"><i class="fa fa-check"></i><b>1.3</b> Choix des outils et objectif de la statistique descriptive</a></li>
+<li class="chapter" data-level="1.4" data-path="généralités.html"><a href="généralités.html#exercices"><i class="fa fa-check"></i><b>1.4</b> Exercices</a>
+<ul>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#exercice-1"><i class="fa fa-check"></i>Exercice 1</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#exercice-2"><i class="fa fa-check"></i>Exercice 2</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#exercice-3"><i class="fa fa-check"></i>Exercice 3</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#exercice-4"><i class="fa fa-check"></i>Exercice 4</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#exercice-5"><i class="fa fa-check"></i>Exercice 5</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="généralités.html"><a href="généralités.html#corrig%C3%A9s"><i class="fa fa-check"></i><b>1.5</b> Corrigés</a>
+<ul>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#corrig%C3%A9-exercice-1"><i class="fa fa-check"></i>Corrigé exercice 1</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#corrig%C3%A9-exercice-2"><i class="fa fa-check"></i>Corrigé exercice 2</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#corrig%C3%A9-exercice-3"><i class="fa fa-check"></i>Corrigé exercice 3</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#corrig%C3%A9-exercice-4"><i class="fa fa-check"></i>Corrigé exercice 4</a></li>
+<li class="chapter" data-level="" data-path="généralités.html"><a href="généralités.html#corrig%C3%A9-exercice-5"><i class="fa fa-check"></i>Corrigé exercice 5</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="the-pool-of-tears.html"><a href="the-pool-of-tears.html"><i class="fa fa-check"></i><b>2</b> The pool of tears</a></li>
+<li class="chapter" data-level="3" data-path="a-caucus-race-and-a-long-tale.html"><a href="a-caucus-race-and-a-long-tale.html"><i class="fa fa-check"></i><b>3</b> A caucus-race and a long tale</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Statistique Descriptive et Probabilités : Rappels de cours et exercices corrigés</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="généralités" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapitre 1</span> Généralités<a href="généralités.html#g%C3%A9n%C3%A9ralit%C3%A9s" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>La statistique est bien plus qu’un simple ensemble de techniques : c’est une science à part entière, une méthode et un outil d’analyse. Elle a pour objet la <strong>collecte</strong>, l’<strong>organisation</strong>, l’<strong>analyse</strong> et l’<strong>interprétation</strong> de données, afin de les rendre compréhensibles et exploitables. Son but ultime est de décrire les phénomènes étudiés, d’établir des prévisions et d’éclairer la prise de décision.</p>
+<p>Les données que la statistique traite peuvent être de nature très variée : économiques, biologiques, sociales, physiques, sportives, etc. Cette universalité explique pourquoi elle est enseignée dans presque toutes les filières universitaires.</p>
+<blockquote>
+<p><strong>Exemple :</strong> Un analyste sportif utilise la statistique pour étudier le nombre de buts marqués par une équipe de football à domicile et à l’extérieur. Ces données l’aideront à prédire les performances futures et à conseiller l’entraîneur sur les points faibles à corriger.</p>
+</blockquote>
+<p>Concrètement, la démarche statistique se décline en plusieurs étapes :</p>
+<ol style="list-style-type: decimal">
+<li><strong>Recueillir</strong> les données pertinentes (enquêtes, relevés, capteurs).</li>
+<li><strong>Présenter et résumer</strong> ces données à l’aide de tableaux, de graphiques et d’indicateurs chiffrés.</li>
+<li><strong>Tirer des conclusions</strong> sur la population étudiée et aider à la prise de décision.</li>
+<li>Le cas échéant, <strong>effectuer des prévisions</strong> lorsque les données évoluent dans le temps (ex. : prévisions météo, tendances boursières).</li>
+</ol>
+<hr />
+<div id="vocabulaires" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Vocabulaires<a href="généralités.html#vocabulaires" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pour mener à bien une étude statistique, il est indispensable de maîtriser un certain nombre de notions de base.</p>
+<div id="lépreuve-statistique" class="section level3 hasAnchor" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> L’épreuve statistique<a href="généralités.html#l%C3%A9preuve-statistique" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>L’<strong>épreuve statistique</strong> est l’expérience ou l’observation qui est à l’origine des données. C’est l’étape préliminaire à toute étude : elle permet de prendre contact avec les observations.</p>
+<blockquote>
+<p><strong>Exemple 1 :</strong> Un fabricant d’ampoules électriques souhaite tester l’influence de la nature du filament sur la durée de vie. Pour cela, il fait fabriquer quatre échantillons d’ampoules identiques, à l’exception du filament, puis les fait brûler jusqu’à extinction afin de comparer les résultats.</p>
+<p><strong>Exemple 2 :</strong> Un enseignant lance un dé à six faces 100 fois pour étudier la fréquence d’apparition de chaque chiffre. L’épreuve est le lancer du dé.</p>
+</blockquote>
+</div>
+<div id="la-population-statistique" class="section level3 hasAnchor" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> La population statistique<a href="généralités.html#la-population-statistique" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>En statistique, le terme de <strong>population</strong> ne se limite pas aux êtres humains. Il désigne l’ensemble des éléments (personnes, objets, animaux, etc.) sur lequel porte l’étude. On le note généralement <span class="math inline">\(\Omega\)</span>.</p>
+<blockquote>
+<p><strong>Exemple 1 :</strong> L’ensemble des étudiants inscrits en première année de Licence à l’Université de Tunis.</p>
+<p><strong>Exemple 2 :</strong> L’ensemble des machines-outils d’une usine de production automobile.</p>
+<p><strong>Exemple 3 :</strong> L’ensemble des parcelles agricoles d’une région donnée, pour étudier le rendement en blé.</p>
+</blockquote>
+</div>
+<div id="lindividu-ou-unité-statistique" class="section level3 hasAnchor" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> L’individu (ou unité statistique)<a href="généralités.html#lindividu-ou-unit%C3%A9-statistique" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Chaque élément de la population est appelé <strong>individu</strong> ou <strong>unité statistique</strong>. C’est l’objet pour lequel on recueille des informations.</p>
+<blockquote>
+<p><strong>Exemple 1 :</strong> Dans l’exemple des étudiants, chaque étudiant est un individu.</p>
+<p><strong>Exemple 2 :</strong> Si l’on étudie la production annuelle de canettes d’une usine, chaque canette constitue une unité statistique.</p>
+<p><strong>Exemple 3 :</strong> Dans une bibliothèque universitaire, chaque livre emprunté est l’unité statistique lorsque l’on étudie la durée des prêts.</p>
+</blockquote>
+</div>
+<div id="le-caractère-ou-variable-statistique" class="section level3 hasAnchor" number="1.1.4">
+<h3><span class="header-section-number">1.1.4</span> Le caractère (ou variable statistique)<a href="généralités.html#le-caract%C3%A8re-ou-variable-statistique" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Le <strong>caractère</strong> est la caractéristique que l’on observe ou mesure sur chaque individu. On le note souvent <span class="math inline">\(X\)</span> et il peut prendre différentes valeurs.</p>
+<blockquote>
+<p><strong>Exemples de caractères :</strong> la taille (en cm), la température (en °C), la nationalité, la couleur des yeux, la catégorie socioprofessionnelle, le groupe sanguin (A, B, AB, O) ou la cylindrée d’un moteur (en cm³).</p>
+</blockquote>
+</div>
+<div id="les-modalités" class="section level3 hasAnchor" number="1.1.5">
+<h3><span class="header-section-number">1.1.5</span> Les modalités<a href="généralités.html#les-modalit%C3%A9s" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Les <strong>modalités</strong> d’un caractère sont les différentes valeurs qu’il peut prendre.</p>
+<blockquote>
+<p><strong>Exemple 1 :</strong> Pour le caractère « situation familiale », les modalités sont : célibataire, marié, divorcé, veuf.</p>
+<p><strong>Exemple 2 :</strong> Pour le caractère « statut d’un interrupteur », les modalités sont 0 (éteint) et 1 (allumé).</p>
+<p><strong>Exemple 3 :</strong> Pour le caractère « niveau de satisfaction client », les modalités sont : Très satisfait, Satisfait, Neutre, Insatisfait, Très insatisfait.</p>
+</blockquote>
+<hr />
+</div>
+</div>
+<div id="les-types-de-caractères" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Les types de caractères<a href="généralités.html#les-types-de-caract%C3%A8res" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Les caractères statistiques se répartissent en deux grandes familles : les caractères <strong>qualitatifs</strong> et les caractères <strong>quantitatifs</strong>.</p>
+<div id="les-caractères-qualitatifs" class="section level3 hasAnchor" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Les caractères qualitatifs<a href="généralités.html#les-caract%C3%A8res-qualitatifs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Un caractère est dit <strong>qualitatif</strong> lorsque ses modalités s’expriment par des catégories et non par des nombres. On distingue deux sous-familles :</p>
+<ul>
+<li><p><strong>Qualitatif nominal</strong> : les modalités ne peuvent pas être ordonnées selon un ordre naturel. On ne peut pas dire qu’une modalité est « supérieure » ou « inférieure » à une autre.</p>
+<blockquote>
+<p><strong>Exemple :</strong> La couleur des yeux (bleu, marron, vert, noir). Aucune de ces couleurs n’est plus « grande » qu’une autre.</p>
+<p><strong>Autre exemple :</strong> La marque d’un téléphone portable (Samsung, Apple, Huawei, Xiaomi).</p>
+</blockquote></li>
+<li><p><strong>Qualitatif ordinal</strong> : les modalités peuvent être classées selon un ordre logique (hiérarchie, échelle croissante ou décroissante). Il y a une notion de “plus petit” ou “plus grand”, mais les écarts entre les modalités ne sont pas mesurables mathématiquement.</p>
+<blockquote>
+<p><strong>Exemple :</strong> Le diplôme le plus élevé obtenu (Primaire, Collège, Lycée, Licence, Master, Doctorat). Il y a un ordre clair du plus bas au plus haut.</p>
+<p><strong>Autre exemple :</strong> L’état d’une maison (Dégradée, À rénover, Bon état, Très bon état, Neuf).</p>
+</blockquote></li>
+</ul>
+</div>
+<div id="les-caractères-quantitatifs" class="section level3 hasAnchor" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> Les caractères quantitatifs<a href="généralités.html#les-caract%C3%A8res-quantitatifs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Un caractère est dit <strong>quantitatif</strong> lorsque ses modalités sont des nombres et peuvent être ordonnées. Il se subdivise à son tour en deux sous-catégories.</p>
+<ul>
+<li><p><strong>Caractère quantitatif discret</strong> : il ne prend que des valeurs isolées, généralement des nombres entiers (ou des valeurs décimales bien précises). Le nombre de valeurs distinctes est souvent fini ou dénombrable.</p>
+<blockquote>
+<p><strong>Exemple 1 :</strong> Le nombre d’enfants par famille (0, 1, 2, 3, …). On ne peut pas avoir 2,5 enfants.</p>
+<p><strong>Exemple 2 :</strong> Le nombre de pannes mensuelles d’un serveur informatique (0, 1, 2, 3 pannes).</p>
+<p><strong>Exemple 3 :</strong> Le salaire mensuel d’un employé (exprimé en dinars entiers).</p>
+</blockquote></li>
+<li><p><strong>Caractère quantitatif continu</strong> : il peut prendre n’importe quelle valeur (entière ou décimale) à l’intérieur d’un intervalle de nombres réels. Les observations sont alors des mesures précises.</p>
+<blockquote>
+<p><strong>Exemple 1 :</strong> La taille d’un individu (165,2 cm ; 178,9 cm ; etc.). N’importe quelle valeur entre 0 et 250 cm est théoriquement possible.</p>
+<p><strong>Exemple 2 :</strong> La température corporelle (36,5 °C ; 37,2 °C ; etc.).</p>
+<p><strong>Exemple 3 :</strong> La durée de vie d’une ampoule (exprimée en heures : 1200h, 1200,5h, 1200,75h).</p>
+</blockquote></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="choix-des-outils-et-objectif-de-la-statistique-descriptive" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Choix des outils et objectif de la statistique descriptive<a href="généralités.html#choix-des-outils-et-objectif-de-la-statistique-descriptive" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La <strong>statistique descriptive</strong> a pour vocation de synthétiser l’information contenue dans les données, en utilisant des <strong>tableaux</strong>, des <strong>graphiques</strong> ou des <strong>indicateurs numériques</strong> (moyennes, médianes, écarts-types).</p>
+<p>Le choix des outils dépend impérativement de la nature des variables étudiées :
+- Pour une variable <strong>qualitative</strong>, on utilisera des diagrammes en bâtons, des camemberts et des tableaux d’effectifs/fréquences.
+- Pour une variable <strong>quantitative discrète</strong>, on privilégiera les diagrammes en bâtons ou les polygones des fréquences.
+- Pour une variable <strong>quantitative continue</strong>, on utilisera l’histogramme et les boîtes à moustaches.</p>
+<p>Cette première approche est indispensable avant d’envisager des traitements plus avancés, comme l’inférence statistique (généralisation des résultats à toute une population) ou la modélisation probabiliste.</p>
+</div>
+<div id="exercices" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Exercices<a href="généralités.html#exercices" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="exercice-1" class="section level3 unnumbered hasAnchor">
+<h3>Exercice 1<a href="généralités.html#exercice-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Indiquez si les affirmations suivantes sont vraies ou fausses. Corrigez-les si elles sont fausses.</p>
+<ol style="list-style-type: decimal">
+<li>La taille d’un individu est un caractère qualitatif.</li>
+<li>Le sexe (Masculin / Féminin) est un caractère quantitatif discret.</li>
+<li>La mention obtenue au baccalauréat (Passable, Assez bien, Bien, Très bien) est un caractère qualitatif ordinal.</li>
+<li>Une population statistique ne peut désigner que des êtres humains.</li>
+<li>Le nombre de pièces défectueuses dans un lot de 1000 est un caractère quantitatif continu.</li>
+<li>La température corporelle d’un patient (36,5 °C ; 37,2 °C) est un caractère quantitatif continu.</li>
+<li>Les modalités d’un caractère sont les différentes valeurs qu’il peut prendre.</li>
+</ol>
+<hr />
+</div>
+<div id="exercice-2" class="section level3 unnumbered hasAnchor">
+<h3>Exercice 2<a href="généralités.html#exercice-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Pour chacune des situations suivantes, identifiez clairement la population étudiée, l’unité statistique (individu), le caractère observé et la nature du caractère.</p>
+<p><strong>Situation A</strong>
+Une entreprise souhaite connaître la <strong>durée de connexion quotidienne moyenne</strong> de ses 200 employés sur le réseau interne. Elle relève pour chaque employé le temps passé (en minutes).</p>
+<p><strong>Situation B</strong>
+Un hôpital recense le <strong>groupe sanguin</strong> (A, B, AB, O) de tous les nouveaux-nés du mois de janvier.</p>
+<p><strong>Situation C</strong>
+Un enseignant relève les <strong>notes sur 20</strong> obtenues par ses 35 étudiants à un examen de statistique.</p>
+<p><strong>Situation D</strong>
+Une agence immobilière classe les appartements qu’elle propose en 5 catégories : <strong>Économique, Confort, Standing, Luxe, Prestige</strong>.</p>
+<hr />
+</div>
+<div id="exercice-3" class="section level3 unnumbered hasAnchor">
+<h3>Exercice 3<a href="généralités.html#exercice-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Classez les caractères suivants dans le tableau ci-dessous (Qualitatif nominal, Qualitatif ordinal, Quantitatif discret, Quantitatif continu).</p>
+<ol style="list-style-type: decimal">
+<li>La couleur des yeux (bleu, marron, vert).</li>
+<li>Le nombre de livres empruntés par mois dans une bibliothèque.</li>
+<li>La distance domicile-travail (en kilomètres).</li>
+<li>Le niveau de douleur ressenti par un patient (Faible, Modéré, Élevé, Intense).</li>
+<li>La catégorie socioprofessionnelle (Ouvrier, Employé, Cadre, Retraité).</li>
+<li>Le temps mis pour courir 100 mètres (en secondes).</li>
+<li>Le nombre d’enfants dans une famille.</li>
+<li>Le type de moteur d’une voiture (Essence, Diesel, Électrique, Hybride).</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Type de caractère</th>
+<th align="left">Caractères correspondants (numéros)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Qualitatif nominal</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Qualitatif ordinal</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Quantitatif discret</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Quantitatif continu</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="exercice-4" class="section level3 unnumbered hasAnchor">
+<h3>Exercice 4<a href="généralités.html#exercice-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>On étudie les <strong>ventes mensuelles</strong> (en milliers de dinars) d’une chaîne de magasins de vêtements.</p>
+<ol style="list-style-type: decimal">
+<li>Quelle est la <strong>population</strong> étudiée ?</li>
+<li>Quelle est l’<strong>unité statistique</strong> ?</li>
+<li>Proposez <strong>trois caractères</strong> que l’on pourrait étudier sur cette population :
+<ul>
+<li>Un caractère <strong>qualitatif nominal</strong>.</li>
+<li>Un caractère <strong>qualitatif ordinal</strong>.</li>
+<li>Un caractère <strong>quantitatif continu</strong>.</li>
+</ul></li>
+<li>Pour le caractère quantitatif que vous avez proposé, donnez <strong>deux modalités possibles</strong>.</li>
+</ol>
+<hr />
+</div>
+<div id="exercice-5" class="section level3 unnumbered hasAnchor">
+<h3>Exercice 5<a href="généralités.html#exercice-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Un laboratoire pharmaceutique teste l’efficacité de deux nouveaux médicaments (A et B) contre la migraine. Pour cela, il sélectionne 100 patients volontaires. Chaque patient reçoit un médicament (A ou B) et doit noter son soulagement sur une échelle de 0 à 10 (0 = aucun soulagement, 10 = soulagement total). Le laboratoire mesure également la <strong>durée de la crise</strong> (en heures) avant et après la prise du médicament.</p>
+<p><strong>Questions :</strong></p>
+<ol style="list-style-type: decimal">
+<li>Décrivez l’<strong>épreuve statistique</strong> dans cette étude.</li>
+<li>Quelle est la <strong>population</strong> ? L’<strong>unité statistique</strong> ?</li>
+<li>Listez tous les <strong>caractères</strong> observés dans cette étude et précisez leur nature (qualitatif / quantitatif).</li>
+<li>Pour le caractère « type de médicament » (A ou B), donnez ses <strong>modalités</strong>.</li>
+<li>Pour le caractère « durée de la crise » (en heures), précisez s’il est discret ou continu. Justifiez.</li>
+</ol>
+<hr />
+</div>
+</div>
+<div id="corrigés" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Corrigés<a href="généralités.html#corrig%C3%A9s" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="corrigé-exercice-1" class="section level3 unnumbered hasAnchor">
+<h3>Corrigé exercice 1<a href="généralités.html#corrig%C3%A9-exercice-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><strong>Faux.</strong> La taille est mesurable numériquement, c’est un <strong>caractère quantitatif continu</strong>.</li>
+<li><strong>Faux.</strong> Le sexe est une catégorie non numérique, c’est un <strong>caractère qualitatif nominal</strong>.</li>
+<li><strong>Vrai.</strong> Les mentions suivent un ordre hiérarchique (Passable &lt; AB &lt; B &lt; TB) sans que les écarts soient mesurables.</li>
+<li><strong>Faux.</strong> Une population peut désigner des objets, des animaux, des machines, etc. (ex. : l’ensemble des ampoules d’une usine).</li>
+<li><strong>Faux.</strong> Le nombre de pièces défectueuses est un nombre entier (comptage), c’est un <strong>caractère quantitatif discret</strong>.</li>
+<li><strong>Vrai.</strong> La température peut prendre n’importe quelle valeur décimale dans un intervalle (ex. : 36,55 °C). C’est bien continu.</li>
+<li><strong>Vrai.</strong> C’est la définition même des modalités.</li>
+</ol>
+<hr />
+</div>
+<div id="corrigé-exercice-2" class="section level3 unnumbered hasAnchor">
+<h3>Corrigé exercice 2<a href="généralités.html#corrig%C3%A9-exercice-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><strong>Situation A</strong>
+- <strong>Population</strong> : Les 200 employés de l’entreprise.
+- <strong>Unité statistique</strong> : Chaque employé.
+- <strong>Caractère</strong> : Durée de connexion quotidienne (en minutes).
+- <strong>Nature</strong> : <strong>Quantitatif continu</strong> (le temps peut être 12,5 min ; 13,2 min, etc.).</p>
+<p><strong>Situation B</strong>
+- <strong>Population</strong> : Tous les nouveaux-nés du mois de janvier à l’hôpital.
+- <strong>Unité statistique</strong> : Chaque nouveau-né.
+- <strong>Caractère</strong> : Groupe sanguin (A, B, AB, O).
+- <strong>Nature</strong> : <strong>Qualitatif nominal</strong> (les groupes n’ont pas d’ordre naturel).</p>
+<p><strong>Situation C</strong>
+- <strong>Population</strong> : Les 35 étudiants de la classe.
+- <strong>Unité statistique</strong> : Chaque étudiant.
+- <strong>Caractère</strong> : Note sur 20.
+- <strong>Nature</strong> : <strong>Quantitatif continu</strong> (bien que les notes soient souvent arrondies, une note comme 13,5 est possible).</p>
+<p><strong>Situation D</strong>
+- <strong>Population</strong> : Les appartements proposés par l’agence.
+- <strong>Unité statistique</strong> : Chaque appartement.
+- <strong>Caractère</strong> : Catégorie de standing (Économique, Confort, Standing, Luxe, Prestige).
+- <strong>Nature</strong> : <strong>Qualitatif ordinal</strong> (les catégories suivent un ordre croissant de qualité).</p>
+<hr />
+</div>
+<div id="corrigé-exercice-3" class="section level3 unnumbered hasAnchor">
+<h3>Corrigé exercice 3<a href="généralités.html#corrig%C3%A9-exercice-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Type de caractère</th>
+<th align="left">Caractères correspondants (numéros)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Qualitatif nominal</td>
+<td align="left">1 (Couleur des yeux), 5 (CSP), 8 (Type de moteur)</td>
+</tr>
+<tr class="even">
+<td align="left">Qualitatif ordinal</td>
+<td align="left">4 (Niveau de douleur)</td>
+</tr>
+<tr class="odd">
+<td align="left">Quantitatif discret</td>
+<td align="left">2 (Nb livres), 7 (Nb enfants)</td>
+</tr>
+<tr class="even">
+<td align="left">Quantitatif continu</td>
+<td align="left">3 (Distance), 6 (Temps 100m)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="corrigé-exercice-4" class="section level3 unnumbered hasAnchor">
+<h3>Corrigé exercice 4<a href="généralités.html#corrig%C3%A9-exercice-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><strong>Population</strong> : L’ensemble des magasins de la chaîne de vêtements (ou l’ensemble des ventes mensuelles).</li>
+<li><strong>Unité statistique</strong> : Chaque magasin (ou chaque mois pour un magasin donné).</li>
+<li><strong>Trois caractères proposés :</strong>
+<ul>
+<li><strong>Qualitatif nominal</strong> : La ville où se situe le magasin (Tunis, Sfax, Sousse…).</li>
+<li><strong>Qualitatif ordinal</strong> : La catégorie de taille du magasin (Petit, Moyen, Grand).</li>
+<li><strong>Quantitatif continu</strong> : Le montant des ventes (en milliers de dinars).</li>
+</ul></li>
+<li><strong>Modalités possibles pour le quantitatif continu</strong> : 15,3 milliers de dinars ; 22,7 milliers de dinars (toute valeur positive dans un intervalle).</li>
+</ol>
+<hr />
+</div>
+<div id="corrigé-exercice-5" class="section level3 unnumbered hasAnchor">
+<h3>Corrigé exercice 5<a href="généralités.html#corrig%C3%A9-exercice-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><strong>Épreuve statistique</strong> : L’administration des médicaments A ou B aux patients volontaires, suivie de la mesure de leur soulagement (échelle 0–10) et de la durée de la crise.</li>
+<li><strong>Population</strong> : L’ensemble des patients migraineux potentiels (ou plus restreint : les 100 patients volontaires de l’étude).<br />
+<strong>Unité statistique</strong> : Chaque patient participant.</li>
+<li><strong>Caractères observés :</strong>
+<ul>
+<li><strong>Type de médicament</strong> (A ou B) → <strong>Qualitatif nominal</strong>.</li>
+<li><strong>Score de soulagement</strong> (0 à 10) → <strong>Quantitatif discret</strong> (valeurs entières 0, 1, 2, …, 10).</li>
+<li><strong>Durée de la crise</strong> (en heures) → <strong>Quantitatif continu</strong> (peut être 2,5 h ; 3,75 h, etc.).</li>
+</ul></li>
+<li><strong>Modalités du caractère « type de médicament »</strong> : A et B.</li>
+<li><strong>La durée de la crise est un caractère quantitatif continu</strong> car elle peut prendre n’importe quelle valeur réelle positive dans un intervalle (ex. : 2,5 heures, 2,75 heures). Elle n’est pas restreinte à un ensemble de valeurs isolées.</li>
+</ol>
+<hr />
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the-pool-of-tears.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/Hamrita/Stat_Proba/edit/main/01-generalite.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": "https://github.com/Hamrita/Stat_Proba/blob/main/01-generalite.Rmd",
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

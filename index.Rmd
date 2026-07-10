@@ -1,9 +1,11 @@
 --- 
 title: "Statistique Descriptive et Probabilités : Rappels de cours et exercices corrigés"
 author: "Mohamed Essaied Hamrita, Abdelkader Trifi"
-date: "`r Sys.Date()`"
+date: "2026"
 site: bookdown::bookdown_site
 ---
+
+\newpage
 
 # {-}
 Ce cours a pour ambition de familiariser les étudiants avec les principes fondamentaux de la statistique. Conçu à destination des étudiants en Licence des sciences et techniques, il est également accessible à ceux issus d’autres filières. L’objectif principal est de permettre une assimilation approfondie des concepts clés et des méthodes élémentaires, afin de jeter les bases solides nécessaires à l’apprentissage ultérieur de techniques statistiques plus avancées. Une attention particulière est accordée au développement de l’esprit critique, essentiel pour une mise en œuvre rigoureuse et une interprétation éclairée des résultats. Pour ce faire, nous adopterons un cadre mathématique rigoureux, que nous illustrerons par de nombreux exemples et figures destinés à faciliter la compréhension et à rendre le propos plus intuitif.

@@ -1,0 +1,286 @@
+# Généralités 
+
+
+La statistique est bien plus qu’un simple ensemble de techniques : c’est une science à part entière, une méthode et un outil d’analyse. Elle a pour objet la **collecte**, l'**organisation**, l'**analyse** et l'**interprétation** de données, afin de les rendre compréhensibles et exploitables. Son but ultime est de décrire les phénomènes étudiés, d’établir des prévisions et d’éclairer la prise de décision.
+
+Les données que la statistique traite peuvent être de nature très variée : économiques, biologiques, sociales, physiques, sportives, etc. Cette universalité explique pourquoi elle est enseignée dans presque toutes les filières universitaires.
+
+> **Exemple :** Un analyste sportif utilise la statistique pour étudier le nombre de buts marqués par une équipe de football à domicile et à l’extérieur. Ces données l’aideront à prédire les performances futures et à conseiller l’entraîneur sur les points faibles à corriger.
+
+Concrètement, la démarche statistique se décline en plusieurs étapes :
+
+1. **Recueillir** les données pertinentes (enquêtes, relevés, capteurs).
+2. **Présenter et résumer** ces données à l’aide de tableaux, de graphiques et d’indicateurs chiffrés.
+3. **Tirer des conclusions** sur la population étudiée et aider à la prise de décision.
+4. Le cas échéant, **effectuer des prévisions** lorsque les données évoluent dans le temps (ex. : prévisions météo, tendances boursières).
+
+---
+
+## Vocabulaires
+
+Pour mener à bien une étude statistique, il est indispensable de maîtriser un certain nombre de notions de base.
+
+### L’épreuve statistique
+
+L’**épreuve statistique** est l’expérience ou l’observation qui est à l’origine des données. C’est l’étape préliminaire à toute étude : elle permet de prendre contact avec les observations.
+
+> **Exemple 1 :** Un fabricant d’ampoules électriques souhaite tester l’influence de la nature du filament sur la durée de vie. Pour cela, il fait fabriquer quatre échantillons d’ampoules identiques, à l’exception du filament, puis les fait brûler jusqu’à extinction afin de comparer les résultats.
+>
+> **Exemple 2 :** Un enseignant lance un dé à six faces 100 fois pour étudier la fréquence d’apparition de chaque chiffre. L’épreuve est le lancer du dé.
+
+### La population statistique
+
+En statistique, le terme de **population** ne se limite pas aux êtres humains. Il désigne l’ensemble des éléments (personnes, objets, animaux, etc.) sur lequel porte l’étude. On le note généralement $\Omega$.
+
+> **Exemple 1 :** L’ensemble des étudiants inscrits en première année de Licence à l’Université de Tunis.
+>
+> **Exemple 2 :** L’ensemble des machines-outils d’une usine de production automobile.
+>
+> **Exemple 3 :** L’ensemble des parcelles agricoles d’une région donnée, pour étudier le rendement en blé.
+
+### L’individu (ou unité statistique)
+
+Chaque élément de la population est appelé **individu** ou **unité statistique**. C’est l’objet pour lequel on recueille des informations.
+
+> **Exemple 1 :** Dans l’exemple des étudiants, chaque étudiant est un individu.
+>
+> **Exemple 2 :** Si l’on étudie la production annuelle de canettes d’une usine, chaque canette constitue une unité statistique.
+>
+> **Exemple 3 :** Dans une bibliothèque universitaire, chaque livre emprunté est l’unité statistique lorsque l’on étudie la durée des prêts.
+
+### Le caractère (ou variable statistique)
+
+Le **caractère** est la caractéristique que l’on observe ou mesure sur chaque individu. On le note souvent $X$ et il peut prendre différentes valeurs.
+
+> **Exemples de caractères :** la taille (en cm), la température (en °C), la nationalité, la couleur des yeux, la catégorie socioprofessionnelle, le groupe sanguin (A, B, AB, O) ou la cylindrée d’un moteur (en cm³).
+
+### Les modalités
+
+Les **modalités** d’un caractère sont les différentes valeurs qu’il peut prendre.
+
+> **Exemple 1 :** Pour le caractère « situation familiale », les modalités sont : célibataire, marié, divorcé, veuf.
+>
+> **Exemple 2 :** Pour le caractère « statut d’un interrupteur », les modalités sont 0 (éteint) et 1 (allumé).
+>
+> **Exemple 3 :** Pour le caractère « niveau de satisfaction client », les modalités sont : Très satisfait, Satisfait, Neutre, Insatisfait, Très insatisfait.
+
+---
+
+## Les types de caractères
+
+Les caractères statistiques se répartissent en deux grandes familles : les caractères **qualitatifs** et les caractères **quantitatifs**.
+
+### Les caractères qualitatifs
+
+Un caractère est dit **qualitatif** lorsque ses modalités s’expriment par des catégories et non par des nombres. On distingue deux sous-familles :
+
+- **Qualitatif nominal** : les modalités ne peuvent pas être ordonnées selon un ordre naturel. On ne peut pas dire qu’une modalité est « supérieure » ou « inférieure » à une autre.
+
+  > **Exemple :** La couleur des yeux (bleu, marron, vert, noir). Aucune de ces couleurs n’est plus « grande » qu’une autre.
+  >
+  > **Autre exemple :** La marque d’un téléphone portable (Samsung, Apple, Huawei, Xiaomi).
+
+- **Qualitatif ordinal** : les modalités peuvent être classées selon un ordre logique (hiérarchie, échelle croissante ou décroissante). Il y a une notion de "plus petit" ou "plus grand", mais les écarts entre les modalités ne sont pas mesurables mathématiquement.
+
+  > **Exemple :** Le diplôme le plus élevé obtenu (Primaire, Collège, Lycée, Licence, Master, Doctorat). Il y a un ordre clair du plus bas au plus haut.
+  >
+  > **Autre exemple :** L’état d’une maison (Dégradée, À rénover, Bon état, Très bon état, Neuf).
+
+### Les caractères quantitatifs
+
+Un caractère est dit **quantitatif** lorsque ses modalités sont des nombres et peuvent être ordonnées. Il se subdivise à son tour en deux sous-catégories.
+
+- **Caractère quantitatif discret** : il ne prend que des valeurs isolées, généralement des nombres entiers (ou des valeurs décimales bien précises). Le nombre de valeurs distinctes est souvent fini ou dénombrable.
+
+  > **Exemple 1 :** Le nombre d’enfants par famille (0, 1, 2, 3, ...). On ne peut pas avoir 2,5 enfants.
+  >
+  > **Exemple 2 :** Le nombre de pannes mensuelles d’un serveur informatique (0, 1, 2, 3 pannes).
+  >
+  > **Exemple 3 :** Le salaire mensuel d’un employé (exprimé en dinars entiers).
+
+- **Caractère quantitatif continu** : il peut prendre n’importe quelle valeur (entière ou décimale) à l’intérieur d’un intervalle de nombres réels. Les observations sont alors des mesures précises.
+
+  > **Exemple 1 :** La taille d’un individu (165,2 cm ; 178,9 cm ; etc.). N’importe quelle valeur entre 0 et 250 cm est théoriquement possible.
+  >
+  > **Exemple 2 :** La température corporelle (36,5 °C ; 37,2 °C ; etc.).
+  >
+  > **Exemple 3 :** La durée de vie d’une ampoule (exprimée en heures : 1200h, 1200,5h, 1200,75h).
+
+---
+
+## Choix des outils et objectif de la statistique descriptive
+
+La **statistique descriptive** a pour vocation de synthétiser l’information contenue dans les données, en utilisant des **tableaux**, des **graphiques** ou des **indicateurs numériques** (moyennes, médianes, écarts-types). 
+
+Le choix des outils dépend impérativement de la nature des variables étudiées :
+- Pour une variable **qualitative**, on utilisera des diagrammes en bâtons, des camemberts et des tableaux d’effectifs/fréquences.
+- Pour une variable **quantitative discrète**, on privilégiera les diagrammes en bâtons ou les polygones des fréquences.
+- Pour une variable **quantitative continue**, on utilisera l’histogramme et les boîtes à moustaches.
+
+Cette première approche est indispensable avant d’envisager des traitements plus avancés, comme l’inférence statistique (généralisation des résultats à toute une population) ou la modélisation probabiliste.
+
+## Exercices
+
+
+### Exercice 1 {-}
+
+Indiquez si les affirmations suivantes sont vraies ou fausses. Corrigez-les si elles sont fausses.
+
+1. La taille d’un individu est un caractère qualitatif.
+2. Le sexe (Masculin / Féminin) est un caractère quantitatif discret.
+3. La mention obtenue au baccalauréat (Passable, Assez bien, Bien, Très bien) est un caractère qualitatif ordinal.
+4. Une population statistique ne peut désigner que des êtres humains.
+5. Le nombre de pièces défectueuses dans un lot de 1000 est un caractère quantitatif continu.
+6. La température corporelle d’un patient (36,5 °C ; 37,2 °C) est un caractère quantitatif continu.
+7. Les modalités d’un caractère sont les différentes valeurs qu’il peut prendre.
+
+---
+
+### Exercice 2 {-}
+
+Pour chacune des situations suivantes, identifiez clairement la population étudiée, l’unité statistique (individu), le caractère observé et la nature du caractère.
+
+**Situation A**
+Une entreprise souhaite connaître la **durée de connexion quotidienne moyenne** de ses 200 employés sur le réseau interne. Elle relève pour chaque employé le temps passé (en minutes).
+
+**Situation B**
+Un hôpital recense le **groupe sanguin** (A, B, AB, O) de tous les nouveaux-nés du mois de janvier.
+
+**Situation C**
+Un enseignant relève les **notes sur 20** obtenues par ses 35 étudiants à un examen de statistique.
+
+**Situation D**
+Une agence immobilière classe les appartements qu’elle propose en 5 catégories : **Économique, Confort, Standing, Luxe, Prestige**.
+
+---
+
+### Exercice 3 {-}
+
+Classez les caractères suivants dans le tableau ci-dessous (Qualitatif nominal, Qualitatif ordinal, Quantitatif discret, Quantitatif continu).
+
+1. La couleur des yeux (bleu, marron, vert).
+2. Le nombre de livres empruntés par mois dans une bibliothèque.
+3. La distance domicile-travail (en kilomètres).
+4. Le niveau de douleur ressenti par un patient (Faible, Modéré, Élevé, Intense).
+5. La catégorie socioprofessionnelle (Ouvrier, Employé, Cadre, Retraité).
+6. Le temps mis pour courir 100 mètres (en secondes).
+7. Le nombre d’enfants dans une famille.
+8. Le type de moteur d’une voiture (Essence, Diesel, Électrique, Hybride).
+
+| Type de caractère | Caractères correspondants (numéros) |
+| :--- | :--- |
+| Qualitatif nominal | |
+| Qualitatif ordinal | |
+| Quantitatif discret | |
+| Quantitatif continu | |
+
+---
+
+### Exercice 4 {-}
+
+On étudie les **ventes mensuelles** (en milliers de dinars) d’une chaîne de magasins de vêtements.
+
+1. Quelle est la **population** étudiée ?
+2. Quelle est l’**unité statistique** ?
+3. Proposez **trois caractères** que l’on pourrait étudier sur cette population :
+   - Un caractère **qualitatif nominal**.
+   - Un caractère **qualitatif ordinal**.
+   - Un caractère **quantitatif continu**.
+4. Pour le caractère quantitatif que vous avez proposé, donnez **deux modalités possibles**.
+
+---
+
+### Exercice 5 {-}
+
+Un laboratoire pharmaceutique teste l’efficacité de deux nouveaux médicaments (A et B) contre la migraine. Pour cela, il sélectionne 100 patients volontaires. Chaque patient reçoit un médicament (A ou B) et doit noter son soulagement sur une échelle de 0 à 10 (0 = aucun soulagement, 10 = soulagement total). Le laboratoire mesure également la **durée de la crise** (en heures) avant et après la prise du médicament.
+
+**Questions :**
+
+1. Décrivez l’**épreuve statistique** dans cette étude.
+2. Quelle est la **population** ? L’**unité statistique** ?
+3. Listez tous les **caractères** observés dans cette étude et précisez leur nature (qualitatif / quantitatif).
+4. Pour le caractère « type de médicament » (A ou B), donnez ses **modalités**.
+5. Pour le caractère « durée de la crise » (en heures), précisez s’il est discret ou continu. Justifiez.
+
+---
+
+## Corrigés 
+
+### Corrigé exercice 1 {-}
+
+1. **Faux.** La taille est mesurable numériquement, c’est un **caractère quantitatif continu**.
+2. **Faux.** Le sexe est une catégorie non numérique, c’est un **caractère qualitatif nominal**.
+3. **Vrai.** Les mentions suivent un ordre hiérarchique (Passable < AB < B < TB) sans que les écarts soient mesurables.
+4. **Faux.** Une population peut désigner des objets, des animaux, des machines, etc. (ex. : l’ensemble des ampoules d’une usine).
+5. **Faux.** Le nombre de pièces défectueuses est un nombre entier (comptage), c’est un **caractère quantitatif discret**.
+6. **Vrai.** La température peut prendre n’importe quelle valeur décimale dans un intervalle (ex. : 36,55 °C). C’est bien continu.
+7. **Vrai.** C’est la définition même des modalités.
+
+---
+
+### Corrigé exercice 2 {-}
+
+**Situation A**
+- **Population** : Les 200 employés de l’entreprise.
+- **Unité statistique** : Chaque employé.
+- **Caractère** : Durée de connexion quotidienne (en minutes).
+- **Nature** : **Quantitatif continu** (le temps peut être 12,5 min ; 13,2 min, etc.).
+
+**Situation B**
+- **Population** : Tous les nouveaux-nés du mois de janvier à l’hôpital.
+- **Unité statistique** : Chaque nouveau-né.
+- **Caractère** : Groupe sanguin (A, B, AB, O).
+- **Nature** : **Qualitatif nominal** (les groupes n’ont pas d’ordre naturel).
+
+**Situation C**
+- **Population** : Les 35 étudiants de la classe.
+- **Unité statistique** : Chaque étudiant.
+- **Caractère** : Note sur 20.
+- **Nature** : **Quantitatif continu** (bien que les notes soient souvent arrondies, une note comme 13,5 est possible).
+
+**Situation D**
+- **Population** : Les appartements proposés par l’agence.
+- **Unité statistique** : Chaque appartement.
+- **Caractère** : Catégorie de standing (Économique, Confort, Standing, Luxe, Prestige).
+- **Nature** : **Qualitatif ordinal** (les catégories suivent un ordre croissant de qualité).
+
+---
+
+### Corrigé exercice 3 {-}
+
+| Type de caractère | Caractères correspondants (numéros) |
+| :--- | :--- |
+| Qualitatif nominal | 1 (Couleur des yeux), 5 (CSP), 8 (Type de moteur) |
+| Qualitatif ordinal | 4 (Niveau de douleur) |
+| Quantitatif discret | 2 (Nb livres), 7 (Nb enfants) |
+| Quantitatif continu | 3 (Distance), 6 (Temps 100m) |
+
+---
+
+### Corrigé exercice 4 {-}
+
+1. **Population** : L’ensemble des magasins de la chaîne de vêtements (ou l’ensemble des ventes mensuelles).
+2. **Unité statistique** : Chaque magasin (ou chaque mois pour un magasin donné).
+3. **Trois caractères proposés :**
+   - **Qualitatif nominal** : La ville où se situe le magasin (Tunis, Sfax, Sousse...).
+   - **Qualitatif ordinal** : La catégorie de taille du magasin (Petit, Moyen, Grand).
+   - **Quantitatif continu** : Le montant des ventes (en milliers de dinars).
+4. **Modalités possibles pour le quantitatif continu** : 15,3 milliers de dinars ; 22,7 milliers de dinars (toute valeur positive dans un intervalle).
+
+---
+
+### Corrigé exercice 5 {-}
+
+1. **Épreuve statistique** : L’administration des médicaments A ou B aux patients volontaires, suivie de la mesure de leur soulagement (échelle 0–10) et de la durée de la crise.
+2. **Population** : L’ensemble des patients migraineux potentiels (ou plus restreint : les 100 patients volontaires de l’étude).  
+   **Unité statistique** : Chaque patient participant.
+3. **Caractères observés :**
+   - **Type de médicament** (A ou B) → **Qualitatif nominal**.
+   - **Score de soulagement** (0 à 10) → **Quantitatif discret** (valeurs entières 0, 1, 2, ..., 10).
+   - **Durée de la crise** (en heures) → **Quantitatif continu** (peut être 2,5 h ; 3,75 h, etc.).
+4. **Modalités du caractère « type de médicament »** : A et B.
+5. **La durée de la crise est un caractère quantitatif continu** car elle peut prendre n’importe quelle valeur réelle positive dans un intervalle (ex. : 2,5 heures, 2,75 heures). Elle n’est pas restreinte à un ensemble de valeurs isolées.
+
+---
+
+

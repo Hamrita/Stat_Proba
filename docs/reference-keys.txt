@@ -1,2 +1,15 @@
+généralités
+vocabulaires
+lépreuve-statistique
+la-population-statistique
+lindividu-ou-unité-statistique
+le-caractère-ou-variable-statistique
+les-modalités
+les-types-de-caractères
+les-caractères-qualitatifs
+les-caractères-quantitatifs
+choix-des-outils-et-objectif-de-la-statistique-descriptive
+exercices
+corrigés
 the-pool-of-tears
 a-caucus-race-and-a-long-tale
